@@ -11,8 +11,9 @@ export const BotaoTema = styled.button`
   color: ${(props) => props.theme.corFundo};
   font-size: 10px;
   font-weight: bold;
-  background-color: ${(props) => props.theme.corPincipal};
+  background-color: ${(props) => props.theme.corFundoBotao};
   cursor: pointer;
+  margin-left: 16px;
 `
 
 export const SidebarContainer = styled.div`
